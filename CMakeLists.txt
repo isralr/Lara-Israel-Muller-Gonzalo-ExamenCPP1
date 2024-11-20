@@ -19,4 +19,5 @@ add_executable(Lara_Israel_ExamenCPP1
     "parte c++/asistencia-c++/asistencia.cpp"
     "parte c++/asistencia-c++/asistencia.h"
     "parte c++/estudiante-c++/estudiante.cpp"
-    "parte c++/estudiante-c++/estudiante.h")
+    "parte c++/estudiante-c++/estudiante.h"
+        main.cpp)
