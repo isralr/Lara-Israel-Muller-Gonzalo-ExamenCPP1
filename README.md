@@ -1,8 +1,16 @@
 # Lara-Israel-ExamenCPP1 - Israel Lara y Gonzalo Müller
 
+<br/>
 
-# Parte 1: Preguntas de elección múltiple (20%)
+### Link al repositorio: https://github.com/isralr/Lara-Israel-ExamenCPP1.git
 
+<br/>
+
+<details>
+<summary> <b>Parte 1: Preguntas de elección múltiple</b> </summary>
+   
+<br/>
+   
 *¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?*
 
 a) C utiliza cout y cin mientras que C++ utiliza printf y scanf.
@@ -66,12 +74,26 @@ d) Una característica específica de C.
 
 Los templates son una característica de C++ que permite definir funciones y clases genéricas que funcionan con diferentes tipos de datos sin necesidad de especificar el tipo exacto en el momento de la definición.
 
+</details>
+
+
+
+
+
+
+
+   
 ---
+
+
+
+
+
+
+
+
 <br/>
 <br/>
-
-# Parte 2: Pregunta de desarrollo de código (80%)
-
 
 En el marco de la globalización y la creciente tendencia de intercambio académico, las universidades internacionales están experimentando un auge en la diversidad de su población estudiantil. Estos estudiantes provienen de diferentes partes del mundo, con culturas, idiomas y antecedentes educativos distintos. Con tal diversidad, la administración académica enfrenta el desafío de gestionar de manera eficiente y personalizada la información de cada estudiante.
 
@@ -79,35 +101,46 @@ El "Centro Global de Estudios Avanzados" (CGEA) es una de esas universidades int
 
 Para ello, han contratado a una firma de desarrollo de software especializada en soluciones educativas. La primera fase del proyecto consiste en evaluar y decidir qué lenguaje de programación es el más adecuado para implementar el nuevo sistema. Dado que el equipo de desarrollo tiene experiencia tanto en C como en C++, han decidido realizar una comparativa entre ambos lenguajes utilizando una estructura básica: la información del estudiante.
 
+<br>
+
 Instrucciones para la Pregunta de Desarrollo de Código:
 
+### Rúbrica
 
-
-# Rúbrica
-
-### 1. Implementación de la estructura `Estudiante` (30%)
+**1. Implementación de la estructura `Estudiante` (30%)**
 - La estructura `Estudiante` está correctamente implementada tanto en **C** como en **C++**.
 
-### 2. Implementación de la función `mostrarEstudiante()` (20%)
+**2. Implementación de la función `mostrarEstudiante()` (20%)**
 - La función `mostrarEstudiante()` está correctamente implementada y muestra correctamente todos los campos de una instancia de `Estudiante`.
 
-### 3. Comparación entre las dos implementaciones (30%)
+**3. Comparación entre las dos implementaciones (30%)**
 - Se proporciona una comparación clara y correcta entre las implementaciones de **C** y **C++**.
 
-### 4. Calidad del código (20%)
+**4. Calidad del código (20%)**
 - Todo el código está bien comentado, organizado y sigue buenas prácticas de programación.
 - El código se compila sin errores ni advertencias en **CLion**.
 
----
 
-## Importante
+
+### Importante
 - Todos los códigos deben ser originales. Se utilizarán herramientas de detección de plagio para verificar la originalidad.
 - El código debe estar bien documentado y organizado.
 - Se debe incluir un archivo `README` con instrucciones sobre cómo compilar y ejecutar el programa.
 - El código debe compilarse sin errores ni advertencias en **CLion**.
 
----
+<br>
+<br>
 
+
+
+
+
+
+
+
+
+<details> <summary>Parte 2: Desarrollo de código</summary>
+   
 ## Estructura del `Estudiante`
 
 ### En C++:
@@ -170,4 +203,4 @@ El sistema debe ser capaz de manejar situaciones inesperadas, como errores en el
 
 ### En C:
 1. Aunque **C** no tiene un sistema integrado de manejo de excepciones como **C++**, discute cómo podrías manejar errores y situaciones inesperadas en este lenguaje.
-
+</details>
