@@ -82,19 +82,18 @@ Los templates son una característica de C++ que permite definir funciones y cla
 
 
 
+
+
+
+
+<br/>
+<br/>
+
+<details>
+   <summary><b>Parte2: Enunciado y Rúbrica</b></summary>
+
+   <br>
    
----
-
-
-
-
-
-
-
-
-<br/>
-<br/>
-
 En el marco de la globalización y la creciente tendencia de intercambio académico, las universidades internacionales están experimentando un auge en la diversidad de su población estudiantil. Estos estudiantes provienen de diferentes partes del mundo, con culturas, idiomas y antecedentes educativos distintos. Con tal diversidad, la administración académica enfrenta el desafío de gestionar de manera eficiente y personalizada la información de cada estudiante.
 
 El "Centro Global de Estudios Avanzados" (CGEA) es una de esas universidades internacionales que ha decidido abordar este desafío. Con campus en cinco continentes y una comunidad estudiantil de más de 40,000 alumnos, el CGEA ha identificado la necesidad de modernizar su sistema de gestión académica para ofrecer un mejor servicio a sus estudiantes y, al mismo tiempo, optimizar sus procesos internos.
@@ -128,6 +127,7 @@ Instrucciones para la Pregunta de Desarrollo de Código:
 - Se debe incluir un archivo `README` con instrucciones sobre cómo compilar y ejecutar el programa.
 - El código debe compilarse sin errores ni advertencias en **CLion**.
 
+</details>
 <br>
 <br>
 
@@ -139,7 +139,7 @@ Instrucciones para la Pregunta de Desarrollo de Código:
 
 
 
-<details> <summary>Parte 2: Desarrollo de código</summary>
+<details> <summary><b>Parte 2: Desarrollo de código</b></summary>
    
 ## Estructura del `Estudiante`
 
