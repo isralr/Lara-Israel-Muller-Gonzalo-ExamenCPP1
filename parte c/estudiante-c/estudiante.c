@@ -1,45 +1,42 @@
 //
 // Created by gonza on 19/11/2024.
 //
-#include <stdio.h>
-#include <string.h>
 #include "estudiante.h"
+#include <string.h>
+#include <stdio.h>
 
-void inicializarEstudiante(Estudiante *e, const char *nombre, int edad, float promedio) {
-    strncpy(e->nombre, nombre, MAX_NOMBRE);
-    e->edad = edad;
-    e->promedio = promedio;
-    e->numMaterias = 0;
+void inicializarEstudiante(Estudiante* estudiante, const char* nombre, int edad, float promedio) {
+    strcpy(estudiante->nombre, nombre);
+    estudiante->edad = edad;
+    estudiante->promedio = promedio;
+    estudiante->num_materias = 0;
 }
 
-void agregarMateria(Estudiante *e, const char *materia) {
-    if (e->numMaterias < MAX_MATERIAS) {
-        strncpy(e->materias[e->numMaterias], materia, MAX_NOMBRE);
-        e->numMaterias++;
-    } else {
-        printf("No se pueden agregar más materias.\n");
+void agregarMateria(Estudiante* estudiante, const char* materia) {
+    if (estudiante->num_materias < 10) {
+        strcpy(estudiante->materias[estudiante->num_materias], materia);
+        estudiante->num_materias++;
     }
 }
 
-void eliminarMateria(Estudiante *e, const char *materia) {
-    for (int i = 0; i < e->numMaterias; i++) {
-        if (strcmp(e->materias[i], materia) == 0) {
-            for (int j = i; j < e->numMaterias - 1; j++) {
-                strncpy(e->materias[j], e->materias[j + 1], MAX_NOMBRE);
+void eliminarMateria(Estudiante* estudiante, const char* materia) {
+    for (int i = 0; i < estudiante->num_materias; i++) {
+        if (strcmp(estudiante->materias[i], materia) == 0) {
+            for (int j = i; j < estudiante->num_materias - 1; j++) {
+                strcpy(estudiante->materias[j], estudiante->materias[j + 1]);
             }
-            e->numMaterias--;
-            return;
+            estudiante->num_materias--;
+            break;
         }
     }
-    printf("Materia no encontrada.\n");
 }
 
-void mostrarEstudiante(const Estudiante *e) {
-    printf("Nombre: %s\n", e->nombre);
-    printf("Edad: %d\n", e->edad);
-    printf("Promedio: %.2f\n", e->promedio);
+void mostrarEstudiante(const Estudiante* estudiante) {
+    printf("Nombre: %s\n", estudiante->nombre);
+    printf("Edad: %d\n", estudiante->edad);
+    printf("Promedio: %.2f\n", estudiante->promedio);
     printf("Materias:\n");
-    for (int i = 0; i < e->numMaterias; i++) {
-        printf("- %s\n", e->materias[i]);
+    for (int i = 0; i < estudiante->num_materias; i++) {
+        printf("  %s\n", estudiante->materias[i]);
     }
 }

@@ -1,8 +1,10 @@
 #include "parte c++/estudiante-c++/estudiante.h"
 #include "parte c++/asistencia-c++/asistencia.h"
-#include <stdio.h>
+
 #include "parte c/estudiante-c/estudiante.h"
 #include "parte c/asistencia-c/asistencia.h"
+
+
 
 int main() {
     //Parte C++

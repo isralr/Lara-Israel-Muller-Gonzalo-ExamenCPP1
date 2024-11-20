@@ -1,30 +1,25 @@
-#include "config.h"
-#ifndef ESTUDIANTE_H
-#define ESTUDIANTE_H
-
-
-#define MAX_NOMBRE 100
-#define MAX_MATERIAS 10
-
-typedef struct {
-    char nombre[MAX_NOMBRE];
-    int edad;
-    float promedio;
-    char materias[MAX_MATERIAS][MAX_NOMBRE];
-    int numMaterias;
-} Estudiante;
+#ifndef ESTUDIANTE_C_H
+#define ESTUDIANTE_C_H
 
 #ifdef __cplusplus
+
 extern "C" {
 #endif
 
-    void inicializarEstudiante(Estudiante *e, const char *nombre, int edad, float promedio);
-    void agregarMateria(Estudiante *e, const char *materia);
-    void eliminarMateria(Estudiante *e, const char *materia);
-    void mostrarEstudiante(const Estudiante *e);
+typedef struct {
+    char nombre[50];
+    int edad;
+    float promedio;
+    char materias[10][50];
+    int num_materias;
+} Estudiante;
 
+void inicializarEstudiante(Estudiante* estudiante, const char* nombre, int edad, float promedio);
+void agregarMateria(Estudiante* estudiante, const char* materia);
+void eliminarMateria(Estudiante* estudiante, const char* materia);
+void mostrarEstudiante(const Estudiante* estudiante);
 #ifdef __cplusplus
 }
 #endif
 
-#endif
+#endif // ESTUDIANTE_C_H
