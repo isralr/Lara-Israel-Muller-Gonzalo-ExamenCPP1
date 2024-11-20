@@ -1,8 +1,9 @@
 # Lara-Israel-ExamenCPP1 - Israel Lara y Gonzalo Müller
 
-<br/>
 
 ### Link al repositorio: https://github.com/isralr/Lara-Israel-ExamenCPP1.git
+
+---
 
 <br/>
 
@@ -128,8 +129,7 @@ Instrucciones para la Pregunta de Desarrollo de Código:
 - El código debe compilarse sin errores ni advertencias en **CLion**.
 
 </details>
-<br>
-<br>
+
 
 
 
