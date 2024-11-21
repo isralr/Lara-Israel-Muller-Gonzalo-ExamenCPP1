@@ -1,7 +1,7 @@
 # Lara-Israel-Müller-Gonzalo-ExamenCPP1 - Israel Lara y Gonzalo Müller
 
 
-### Link al repositorio: [https://github.com/isralr/Lara-Israel-ExamenCPP1.git](https://github.com/isralr/Lara-Israel-Muller-Gonzalo-ExamenCPP1.git)
+### Link al repositorio: (https://github.com/isralr/Lara-Israel-Muller-Gonzalo-ExamenCPP1.git)
 
 ---
 
