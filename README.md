@@ -83,13 +83,14 @@ Los templates son una característica de C++ que permite definir funciones y cla
 
 
 
-
-
-
-
 <br/>
 <br/>
 
+
+<details>
+   <summary><b>Parte 2: Práctica</b></summary>
+<br>
+   
 <details>
    <summary><b>Parte2: Enunciado y Rúbrica</b></summary>
 
@@ -203,4 +204,5 @@ El sistema debe ser capaz de manejar situaciones inesperadas, como errores en el
 
 ### En C:
 1. Aunque **C** no tiene un sistema integrado de manejo de excepciones como **C++**, discute cómo podrías manejar errores y situaciones inesperadas en este lenguaje.
+</details>
 </details>
