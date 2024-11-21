@@ -1,3 +1,4 @@
+// estudiante.cpp
 #include "Estudiante.h"
 #include <iostream>
 #include <vector>
@@ -10,7 +11,7 @@ struct Estudiante {
     std::vector<std::string> materias;
 };
 
-// Función para gestionar estudiantes
+// Implementación de la función gestionarEstudiante
 void gestionarEstudiante() {
     Estudiante estudiante1 = {"Juan Pérez", 20, 8.5, {"Matemáticas", "Física"}};
 

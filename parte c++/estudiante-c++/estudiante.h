@@ -1,10 +1,11 @@
+// estudiante.h
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
 
 #include <string>
 #include <vector>
 
-// Funciones relacionadas con la gestión de estudiantes
+// Declaración de la función gestionarEstudiante
 void gestionarEstudiante();
 
 #endif // ESTUDIANTE_H

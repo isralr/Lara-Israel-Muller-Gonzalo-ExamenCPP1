@@ -1,16 +1,15 @@
+// main.cpp
 #include "parte c++/estudiante-c++/estudiante.h"
 #include "parte c++/asistencia-c++/asistencia.h"
 
 #include "parte c/estudiante-c/estudiante.h"
 #include "parte c/asistencia-c/asistencia.h"
 
-
-
 int main() {
-    //Parte C++
+    // Parte C++
 
     // Gestión de estudiantes
-    gestionarEstudiante();
+    gestionarEstudiante();  // Esto llama a la función gestionarEstudiante
 
     // Gestión de asistencias con manejo de excepciones
     registrarAsistencia("2024-11-18", "Matemáticas", "asistió"); // Correcto
@@ -18,8 +17,7 @@ int main() {
     registrarAsistencia("2024-11-18", "Historia", "asistió");  // Error: materia no registrada
     mostrarAsistencia();
 
-
-    //Parte C
+    // Parte C
     Estudiante estudiante;
     Asistencia asistencia;
 
@@ -33,7 +31,6 @@ int main() {
     // Registrar asistencia
     registrarAsistencia(&asistencia, "2024-11-19", "Matematicas", "Asistio");
     mostrarAsistencia(&asistencia);
-
 
     return 0;
 }
