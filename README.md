@@ -207,12 +207,14 @@ El sistema debe ser capaz de manejar situaciones inesperadas, como errores en el
 </details>
 </details>
 
-<details>
-  <summary>Parte 3: Conclusión: </summary>
+## <details>
+  ## <summary> Parte 3: Conclusión </summary>
   <p style="font-size: 12px; line-height: 1.4;">
 ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
+     
 - Considero que el lenguaje mas adecuado es C++ ya que puede manejar requisitos u operaciones complejas. 
 ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
+
 - Le recomendaría mantener el orden separado de c y c++ y que definan el proyecto de manera que no se vuelva complicado de entender manteniendo la sencillez en todo lo posible e intentar mantenerlo lo mas ordenado posible para que sea facil de entendre, recordarle que el proyecto de c y sus archvios pueden ser ejecutados por c++
 
 
