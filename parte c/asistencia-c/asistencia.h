@@ -1,6 +1,3 @@
-//
-// Created by gonza on 19/11/2024.
-//
 #ifndef ASISTENCIA_C_H
 #define ASISTENCIA_C_H
 
@@ -8,15 +5,38 @@
 extern "C" {
 #endif
 
-typedef struct {
-    char fecha[11];
-    char materia[50];
-    char estado[10];
-} Asistencia;
+    // Definición de la estructura Asistencia
+    typedef struct {
+        char fecha[11];  // Formato YYYY-MM-DD
+        char materia[50];
+        char estado[10];
+    } Asistencia;
 
-void registrarAsistencia(Asistencia* asistencia, const char* fecha, const char* materia, const char* estado);
-void mostrarAsistencia(const Asistencia* asistencia);
+    /**
+     * Valida si la fecha tiene el formato correcto (YYYY-MM-DD) y sus valores son válidos.
+     * @param fecha Cadena con la fecha a validar.
+     * @return 1 si es válida, 0 si no lo es.
+     */
+    int esFechaValida(const char* fecha);
+
+    /**
+     * Registra una asistencia en la estructura proporcionada.
+     * @param asistencia Puntero a la estructura Asistencia.
+     * @param fecha Cadena con la fecha de la asistencia (formato YYYY-MM-DD).
+     * @param materia Cadena con el nombre de la materia.
+     * @param estado Cadena con el estado ("Asistio", "Falto", etc.).
+     * @return 0 si se registró correctamente, -1 si el formato de la fecha es inválido, -2 si la materia no está registrada.
+     */
+    int registrarAsistencia(Asistencia* asistencia, const char* fecha, const char* materia, const char* estado);
+
+    /**
+     * Muestra los datos de una asistencia.
+     * @param asistencia Puntero a la estructura Asistencia que se mostrará.
+     */
+    void mostrarAsistencia(const Asistencia* asistencia);
+
 #ifdef __cplusplus
 }
 #endif
+
 #endif // ASISTENCIA_C_H

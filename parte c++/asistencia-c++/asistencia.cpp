@@ -1,7 +1,19 @@
-#include "Asistencia.h"
+#include "asistencia.h"
 #include <iostream>
 #include <vector>
 #include <regex>
+#include <stdexcept>
+
+// Definición de clases de excepción personalizadas
+class FechaInvalidaException : public std::runtime_error {
+public:
+    FechaInvalidaException() : std::runtime_error("Formato de fecha inválido. Use el formato YYYY-MM-DD.") {}
+};
+
+class MateriaNoRegistradaException : public std::runtime_error {
+public:
+    MateriaNoRegistradaException() : std::runtime_error("Error: Materia no registrada.") {}
+};
 
 // Definición de la estructura Asistencia
 struct Asistencia {
@@ -15,22 +27,17 @@ std::vector<Asistencia> registros;
 
 // Función para validar el formato de la fecha
 bool esFechaValida(const std::string& fecha) {
-    // Expresión regular para formato de fecha: YYYY-MM-DD
     std::regex patron("^\\d{4}-\\d{2}-\\d{2}$");
     return std::regex_match(fecha, patron);
 }
 
-// Función para registrar asistencia con control de errores
+// Función para registrar asistencia con excepciones
 void registrarAsistencia(const std::string& fecha, const std::string& materia, const std::string& estado) {
     if (!esFechaValida(fecha)) {
-        std::cout << "Error: Formato de fecha inválido. Use el formato YYYY-MM-DD.\n";
-        return;
+        throw FechaInvalidaException();
     }
-
-    // Aquí se podría validar si la materia está registrada. Si no, lanzar un error.
     if (materia != "Matemáticas" && materia != "Física" && materia != "Historia") {
-        std::cout << "Error: Materia no registrada.\n";
-        return;
+        throw MateriaNoRegistradaException();
     }
 
     Asistencia nuevoRegistro = {fecha, materia, estado};

@@ -1,3 +1,3 @@
-C:/Users/israe/OneDrive/Documentos/GitHub/Lara-Israel-ExamenCPP1/cmake-build-debug/CMakeFiles/Lara_Israel_ExamenCPP1.dir
-C:/Users/israe/OneDrive/Documentos/GitHub/Lara-Israel-ExamenCPP1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/israe/OneDrive/Documentos/GitHub/Lara-Israel-ExamenCPP1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/israe/OneDrive/Documentos/GitHub/Lara-Israel-Muller-Gonzalo-ExamenCPP1/cmake-build-debug/CMakeFiles/Lara_Israel_ExamenCPP1.dir
+C:/Users/israe/OneDrive/Documentos/GitHub/Lara-Israel-Muller-Gonzalo-ExamenCPP1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/israe/OneDrive/Documentos/GitHub/Lara-Israel-Muller-Gonzalo-ExamenCPP1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
