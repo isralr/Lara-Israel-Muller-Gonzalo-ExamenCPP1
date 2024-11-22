@@ -206,3 +206,10 @@ El sistema debe ser capaz de manejar situaciones inesperadas, como errores en el
 1. Aunque **C** no tiene un sistema integrado de manejo de excepciones como **C++**, discute cómo podrías manejar errores y situaciones inesperadas en este lenguaje.
 </details>
 </details>
+
+<details>
+  <summary>Parte 3: Conclusión : </summary>
+  <p style="font-size: 12px; line-height: 1.4;">
+<details>
+
+
